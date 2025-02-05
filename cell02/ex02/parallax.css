@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg1 {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/5kBu33bi8yqyMJPXkBGGjD.jpg');
+}
+
+.bg2 {
+    background-image: url('https://i.dailymail.co.uk/1s/2024/06/17/15/86221813-13538681-image-a-93_1718635930273.jpg');
+}
+
+.text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.content {
+    height: 50vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
